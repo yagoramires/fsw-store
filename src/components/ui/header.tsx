@@ -11,7 +11,7 @@ import { Sheet, SheetContent, SheetHeader, SheetTrigger } from "./sheet";
 
 const Header = () => {
   return (
-    <Card className="flex justify-between items-center p-[1.875rem]">
+    <Card className="flex justify-between items-center p-[1.875rem] rounded-t-none">
       <Sheet>
         <SheetTrigger>
           <Button size={"icon"} variant={"outline"}>
