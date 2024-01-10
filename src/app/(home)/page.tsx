@@ -21,7 +21,7 @@ export default async function Home() {
           width={0}
           height={0}
           sizes="100vw"
-          className="h-auto max-h-[70%] w-full max-w-[80%]"
+          className="h-auto  w-full "
         />
       </div>
 
@@ -30,7 +30,19 @@ export default async function Home() {
       </div>
 
       <div className="mt-8 ">
+        <p className="mb-3 pl-5 font-bold uppercase"> Ofertas</p>
         <ProductList products={deals} />
+      </div>
+
+      <div className="p-5">
+        <Image
+          src="/banner-home-02.png"
+          alt="até 55% de desconto, só esse mês"
+          width={0}
+          height={0}
+          sizes="100vw"
+          className="h-auto w-full "
+        />
       </div>
     </main>
   );

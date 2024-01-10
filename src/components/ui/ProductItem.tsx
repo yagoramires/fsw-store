@@ -19,7 +19,7 @@ export default function ProductItem({ product }: ProductItemProps) {
           width={0}
           height={0}
           sizes="100vw"
-          className="h-[90px] w-auto object-contain"
+          className="h-[90px] max-h-[70%] w-auto max-w-[80%] object-contain"
         />
         <div className="absolute left-3 top-3">
           {product.discountPercentage > 0 && (
