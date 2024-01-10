@@ -1,10 +1,11 @@
 "use client";
 import Image from "next/image";
+import Categories from "./components/Categories";
 
 export default function Home() {
   return (
-    <main>
-      <div className="p-5">
+    <main className="p-5">
+      <div>
         <Image
           src="/banner-home-01.png"
           alt="até 55% de desconto, só esse mês"
@@ -13,6 +14,10 @@ export default function Home() {
           sizes="100vw"
           className="h-auto w-full"
         />
+      </div>
+
+      <div className="mt-8">
+        <Categories />
       </div>
     </main>
   );
